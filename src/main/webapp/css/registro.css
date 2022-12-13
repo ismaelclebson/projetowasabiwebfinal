@@ -1,0 +1,115 @@
+body {
+  background-color: #fff;
+  font: 1em Helvetica;
+}
+.user-form {
+  display:flex;
+  border-radius: 10%;
+}
+#container {
+  width: 840px;
+  background-color: white;
+  margin: 25px auto;
+  margin-top: 50px;
+  padding-top: 2rem ;
+}
+
+.whysign a {
+  font-size: 16px;
+  color: #222;
+}
+
+.whysign {
+  margin-top: 10px;
+  float: left;
+  background-color: white;
+  padding-top: 2rem;
+  padding-bottom: 30px;
+  width: 480px;
+  height: 528px;
+  border-radius: 0 5px 5px 0;
+}
+.whysignLogin
+{
+	float: left;
+  background-color: white;
+  width: 480px;
+  height: 347px;
+}
+.whyforgotPassword
+{
+	float: left;
+  background-color: white;
+  width: 480px;
+  height: 470px;
+  border-radius: 0 5px 5px 0;
+}
+.registro {
+  float: left;
+  width: 300px;
+  padding: 0px 20px;
+  background-color: white;
+  text-align: center;
+}
+
+
+[type=text],[type=email],[type=number],[type=password],select,option {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  border: 0;
+  border-bottom: 1px solid rgba(0,0,0,.2);
+  height: 45px;
+  line-height: 45px;  
+  margin-bottom: 10px;
+  font-size: 1em;
+  color: black;
+}
+
+[type=submit] {
+  margin-top: 25px;
+  width: 80%;
+  border: 0;
+  background-color: #222;
+  border-radius: 5px;
+  height: 50px;
+  color: white;
+  font-weight: 400;
+  font-size: 1em;
+}
+
+[type='text']:focus {
+  outline: none;
+  border-color: #222;
+}
+
+h1 {
+  color: #222;
+  font-weight: 900;
+  font-size: 2em;
+}
+
+p {
+  color: rgba(0,0,0,.6);
+  font-size: 1.2em;
+  margin: 50px 0 50px 0;
+}
+
+span {
+  font-size: .75em;
+  background-color: white;
+  padding: 2px 5px;
+  color: rgba(0,0,0,.6);
+  border-radius: 2px;
+  box-shadow: 1px 1px 1px rgba(0,0,0,.3);
+  margin: 5px;
+}
+
+span:hover {
+  color: #53CACE;
+}
+
+p:nth-of-type(2) {
+  font-size: 1em;
+}
+
